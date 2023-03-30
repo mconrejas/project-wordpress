@@ -1,1 +1,0 @@
-function User(r){this.record=function(){return r}}User.prototype.has_cap=function(r){try{return!(this.record().caps.indexOf(r)<0)}catch(r){return!1}};
