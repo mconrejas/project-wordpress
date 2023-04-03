@@ -8,7 +8,7 @@ $ardtdw_Position = esc_html(get_option('ardtdw-position'));
 echo '<div id="ardtdw-sitewidget" class="ardtdw-sitewidget ardtdw-'.$ardtdw_Position.'">';
 echo '<div class="ardtdw-sitewidget-inner">';
 echo '<div class="ardtdw-sitewidget-head">';
-echo '<h1>List of Places</h1>';
+echo '<h1>Name of Places</h1>'; 
 echo '<p>'. __('Places','dashboard-to-do-list') . '</p>';
 echo '<a href="' . site_url() . '/wp-admin" target="_blank" title="'. __('Add Place','dashboard-to-do-list') . '">+</a>';
 echo '</div>';
